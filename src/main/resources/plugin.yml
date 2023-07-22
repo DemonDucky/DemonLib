@@ -1,0 +1,6 @@
+name: DemonLib
+version: '${version}'
+main: me.demonducky.demonlib.DemonLib
+api-version: '1.18'
+authors: [DemonDucky]
+description: A menu manager, command manager & lots more
