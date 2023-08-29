@@ -7,9 +7,8 @@ import org.bukkit.inventory.ItemFlag
 import org.bukkit.inventory.ItemStack
 
 class ItemSystem(
-    val item: ItemStack,
-    val slots: Int,
-    val bright: Boolean = false,
+    private val item: ItemStack,
+    private val bright: Boolean = false,
     val tasks: Map<ClickType, (InventoryClickEvent) -> Unit> = mapOf()
 ) {
 
